@@ -30,7 +30,8 @@
     "express": "^5.1.0",
     "firebase-admin": "^13.5.0",
     "sweetalert2": "^11.23.0",
-    "zod": "^3.25.76"
+    "zod": "^3.25.76",
+    "vite": "^7.1.2",
   },
   "devDependencies": {
     "@hookform/resolvers": "^5.2.1",
