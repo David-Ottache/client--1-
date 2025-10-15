@@ -3,6 +3,9 @@
   "name": "fusion-starter",
   "private": true,
   "type": "module",
+  "engines": {
+    "node": ">=18.18.0 <19.0.0"
+  },
   "pkg": {
     "assets": [
       "dist/spa/*"
@@ -13,10 +16,7 @@
   },
   "scripts": {
     "dev": "vite",
-    "engines": {
-    "node": ">=18.18.0 <19.0.0"
-   },
-   "build": "npm run build",
+    "build": "vite build",
     "build:client": "vite build",
     "start": "node dist/server/node-build.mjs",
     "test": "vitest --run",
@@ -106,5 +106,5 @@
     "vite": "^7.1.2",
     "vitest": "^3.2.4"
   },
-  "packageManager": "pnpm@10.14.0+sha512.ad27a79641b49c3e481a16a805baa71817a04bbe06a38d17e60e2eaee83f6a146c6a688125f5792e48dd5ba30e7da52a5cda4c3992b9ccf333f9ce223af84748"
+  "packageManager": "pnpm@10.14.0"
 }
